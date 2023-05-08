@@ -20,7 +20,7 @@
 </head>
 <body>
 <%
-Connection conn2 = DriverManager.getConnection("jdbc:mariadb://192.168.123.102/wifi_db", "wifi_user", "wifi1234");
+Connection conn2 = DriverManager.getConnection("jdbc:mariadb://192.168.123.106/wifi_db", "wifi_user", "wifi1234");
 PreparedStatement pstmt = conn2.prepareStatement("INSERT INTO seoul_wifi(manage_num, district, wifi_name, address, detail_address, floor, installation_type, installation_agency, service_type, network_type, installation_year, indoor_outdoor_type, wifi_access_environment, x_coord, y_coord, work_date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
 int offset = 1; // 요청 시작 위치
