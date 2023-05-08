@@ -7,7 +7,7 @@
 * Java 1.8
 * Apache Tomcat 10.1
 * MariaDB 10.4
-* Eclipse IDE for Enterprise Java Developers (Version: 2021-03)  
+* Eclipse IDE for Enterprise Java Developers (Version: 2023-03)  
 <br/>
 
 ## 구현 기능
